@@ -8,11 +8,11 @@
       "esnext"
     ],
     "allowJs": true,
-    "skipLibCheck": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "incremental": true,
+    "skipLibCheck": true,
     "jsx": "preserve",
     "module": "CommonJS",
     "moduleResolution": "node",
@@ -25,7 +25,7 @@
     ],
     "paths": {
       "react": ["./node_modules/@types/react"],
-      "@/*": ["./src/*"]
+      // "@/*": ["./src/*"]
     }
   },
   "include": [
